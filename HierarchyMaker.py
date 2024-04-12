@@ -20,7 +20,7 @@ for node in satan.nodes_with_selfloops(G):
 
 output = pd.DataFrame(sorted(all_paths)).add_prefix('level').fillna(' ')
 
-output.to_excel('hy output.xlsx',sheet_name='Output')
+output.to_excel('pandas.xlsx',sheet_name='Output')
 
 #use 0a[Blank] this will solve ur problems
 print("its joeber")
